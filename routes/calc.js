@@ -9,6 +9,7 @@ router.get('/', function (req, res, next) {
 
 
 router.post('/doAdd', function (req, res, next) {
+    console.log(req);
     var Number1 = req.body.no1;
     var Number2 = req.body.no2;
 
